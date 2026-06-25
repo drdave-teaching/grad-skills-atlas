@@ -6,9 +6,9 @@ A cross-course map of **what students learn** in the OPIM graduate classes — e
 > ✋ **by hand** (math/manual) · 💻 **local code** (a notebook) · ☁️ **production** (deployed in the cloud)
 
 ## Course atlases
-- **[OPIM 5512 — Applied Data Science](OPIM5512.md)** ✅ *(pilot)*
-- OPIM 5509 — Deep Learning *(coming next)*
-- OPIM 5641 — Business Decision Modeling *(coming next)*
+- **[OPIM 5512 — Applied Data Science](OPIM5512.md)** ✅
+- **[OPIM 5509 — Deep Learning](OPIM5509.md)** ✅
+- **[OPIM 5641 — Business Decision Modeling](OPIM5641.md)** ✅
 
 ## What this is for
 - See the **shared core** — the handful of skills that show up in *every* class (the highest-leverage things to drill).
