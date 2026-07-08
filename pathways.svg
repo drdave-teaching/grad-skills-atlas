@@ -16,8 +16,6 @@
 <line x1="700" y1="148" x2="748" y2="148" stroke="#9A988F" stroke-width="2" marker-end="url(#a)"/>
 <!-- 3511 Dave -->
 <g><rect x="748" y="120" width="176" height="56" rx="12" fill="#FBEAF0" stroke="#D4537E"/><text x="764" y="145" font-size="16" font-weight="700" fill="#72243E">OPIM 3511</text><text x="764" y="163" font-size="10.5" fill="#993556">BDA II · ML fundamentals</text></g>
-<text x="946" y="142" font-size="10.5" fill="#A9A79E">also teaches</text>
-<text x="946" y="158" font-size="10.5" fill="#A9A79E">3802 Data &amp; Text (elective)</text>
 
 <!-- ===================== BAND 2: MSBAPM required core ===================== -->
 <rect x="24" y="206" width="1132" height="112" rx="10" fill="#FBFAF6"/>

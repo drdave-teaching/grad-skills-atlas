@@ -14,7 +14,7 @@ A cross-course map of **what students learn** across the whole OPIM analytics cu
 
 Dr. Wanik's eight courses anchor two UConn programs (2025–26 plans of study):
 
-- **Undergraduate — Business Data Analytics (BS) core:** OPIM 3505 *Database* → [**3510**](OPIM3510.md) *BDA I: Data Storytelling, Applied Stats & Geospatial* → [**3511**](OPIM3511.md) *BDA II: ML Fundamentals* — he teaches **3510 & 3511** (and **3802** *Data & Text Analytics* as a School-of-Business elective).
+- **Undergraduate — Business Data Analytics (BS) core:** OPIM 3505 *Database* → [**3510**](OPIM3510.md) *BDA I: Data Storytelling, Applied Stats & Geospatial* → [**3511**](OPIM3511.md) *BDA II: ML Fundamentals* — he teaches **3510 & 3511** (3505 is a colleague's).
 - **Graduate — MSBAPM required core:** of the 9 required courses he teaches **2** — [**5603**](OPIM5603.md) *Statistics in Business Analytics (R)* and [**5641**](OPIM5641.md) *Business Decision Modeling*.
 - **Graduate — concentration electives:** his other four anchor **both** data-focused concentrations — **Business Data Science** ([5502](OPIM5502.md) · [5509](OPIM5509.md) · [5512](OPIM5512.md)) and **AI for Business** (new Fall 2025: [5509](OPIM5509.md) · [5516](OPIM5516.md)) — with **5509 counting toward both**.
 
