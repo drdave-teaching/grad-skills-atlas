@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="600" viewBox="0 0 1140 600" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="OPIM course learning pathways: undergraduate track (3510 to 3511 to 3802), graduate data-science track (5603 to 5512 to 5509 to 5516), and specializations (5502 Big Data, 5641 Optimization).">
+<rect x="0.5" y="0.5" width="1139" height="599" rx="16" fill="#FDFDFB" stroke="#E4E2DA"/>
+<text x="34" y="42" font-size="21" font-weight="700" fill="#1F1E1B">Learning pathways across the OPIM curriculum</text>
+<text x="34" y="66" font-size="13" fill="#6B6A63">Solid arrow = builds on &#183; dashed = shared core, same skills at a different level &#183; each course has a free companion book + notebooks</text>
+
+<!-- lane labels -->
+<text x="34" y="150" font-size="12.5" font-weight="700" fill="#8A8880">UNDERGRADUATE</text>
+<text x="34" y="164" font-size="11" fill="#A9A79E">Business Data Analytics</text>
+<text x="34" y="330" font-size="12.5" font-weight="700" fill="#8A8880">GRADUATE —</text>
+<text x="34" y="345" font-size="12.5" font-weight="700" fill="#8A8880">DATA SCIENCE</text>
+<line x1="230" y1="95" x2="230" y2="560" stroke="#EEEDE7"/>
+
+<!-- lane band tints -->
+<rect x="232" y="96" width="892" height="128" rx="10" fill="#FBFAF6"/>
+<rect x="232" y="260" width="892" height="128" rx="10" fill="#FBFAF6"/>
+<rect x="232" y="452" width="892" height="112" rx="10" fill="#FBFAF6"/>
+<text x="250" y="480" font-size="12.5" font-weight="700" fill="#8A8880">GRADUATE — SPECIALIZATIONS</text>
+
+<!-- ===== solid within-track arrows ===== -->
+<defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#9A988F"/></marker></defs>
+<!-- undergrad -->
+<line x1="446" y1="150" x2="500" y2="150" stroke="#9A988F" stroke-width="2" marker-end="url(#a)"/>
+<line x1="686" y1="150" x2="740" y2="150" stroke="#9A988F" stroke-width="2" marker-end="url(#a)"/>
+<!-- grad DS -->
+<line x1="446" y1="314" x2="500" y2="314" stroke="#9A988F" stroke-width="2" marker-end="url(#a)"/>
+<line x1="686" y1="314" x2="740" y2="314" stroke="#9A988F" stroke-width="2" marker-end="url(#a)"/>
+<line x1="926" y1="314" x2="980" y2="314" stroke="#9A988F" stroke-width="2" marker-end="url(#a)"/>
+
+<!-- ===== dashed shared-core links ===== -->
+<line x1="330" y1="188" x2="330" y2="276" stroke="#B4B2A9" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="338" y="238" font-size="10.5" fill="#8A8880">shared applied-stats core</text>
+<line x1="570" y1="188" x2="570" y2="276" stroke="#B4B2A9" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="578" y="238" font-size="10.5" fill="#8A8880">same ML fundamentals</text>
+<line x1="620" y1="346" x2="470" y2="452" stroke="#B4B2A9" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="470" y="430" font-size="10.5" fill="#8A8880">scale it up →</text>
+
+<!-- ===== NODES ===== -->
+<!-- helper: rounded rect + number + subtitle -->
+<!-- Undergrad -->
+<g><rect x="270" y="120" width="176" height="60" rx="12" fill="#FCEBEC" stroke="#BE123C"/><text x="286" y="147" font-size="17" font-weight="700" fill="#791F1F">OPIM 3510</text><text x="286" y="166" font-size="11" fill="#A32D2D">BDA I · stats &amp; geospatial</text></g>
+<g><rect x="510" y="120" width="176" height="60" rx="12" fill="#FBEAF0" stroke="#D4537E"/><text x="526" y="147" font-size="17" font-weight="700" fill="#72243E">OPIM 3511</text><text x="526" y="166" font-size="11" fill="#993556">BDA II · ML fundamentals</text></g>
+<g><rect x="750" y="120" width="176" height="60" rx="12" fill="#F4F3EE" stroke="#C7C5BC" stroke-dasharray="4 3"/><text x="766" y="147" font-size="17" font-weight="700" fill="#807E77">OPIM 3802</text><text x="766" y="166" font-size="11" fill="#A9A79E">Data &amp; Text Analytics</text></g>
+
+<!-- Grad DS -->
+<g><rect x="270" y="284" width="176" height="60" rx="12" fill="#E6F1FB" stroke="#1E40AF"/><text x="286" y="311" font-size="17" font-weight="700" fill="#0C447C">OPIM 5603</text><text x="286" y="330" font-size="11" fill="#185FA5">Statistics (R)</text></g>
+<g><rect x="510" y="284" width="176" height="60" rx="12" fill="#EEEDFE" stroke="#534AB7"/><text x="526" y="311" font-size="17" font-weight="700" fill="#3C3489">OPIM 5512</text><text x="526" y="330" font-size="11" fill="#534AB7">Applied Data Science</text></g>
+<g><rect x="750" y="284" width="176" height="60" rx="12" fill="#FAEEDA" stroke="#BA7517"/><text x="766" y="311" font-size="17" font-weight="700" fill="#633806">OPIM 5509</text><text x="766" y="330" font-size="11" fill="#854F0B">Deep Learning</text></g>
+<g><rect x="990" y="284" width="176" height="60" rx="12" fill="#E1F5EE" stroke="#0F766E"/><text x="1006" y="311" font-size="17" font-weight="700" fill="#085041">OPIM 5516</text><text x="1006" y="330" font-size="11" fill="#0F6E56">Advanced Deep Learning</text></g>
+
+<!-- Specializations -->
+<g><rect x="390" y="496" width="176" height="60" rx="12" fill="#EAF3DE" stroke="#047857"/><text x="406" y="523" font-size="17" font-weight="700" fill="#27500A">OPIM 5502</text><text x="406" y="542" font-size="11" fill="#3B6D11">Big Data · PySpark</text></g>
+<g><rect x="630" y="496" width="176" height="60" rx="12" fill="#FAECE7" stroke="#E0701A"/><text x="646" y="523" font-size="17" font-weight="700" fill="#712B13">OPIM 5641</text><text x="646" y="542" font-size="11" fill="#993C1D">Optimization / Decision Modeling</text></g>
+
+<text x="830" y="532" font-size="11" fill="#A9A79E" font-style="italic">standalone electives — draw on the shared core</text>
+</svg>
