@@ -1,55 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="600" viewBox="0 0 1140 600" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="OPIM course learning pathways: undergraduate track (3510 to 3511 to 3802), graduate data-science track (5603 to 5512 to 5509 to 5516), and specializations (5502 Big Data, 5641 Optimization).">
-<rect x="0.5" y="0.5" width="1139" height="599" rx="16" fill="#FDFDFB" stroke="#E4E2DA"/>
-<text x="34" y="42" font-size="21" font-weight="700" fill="#1F1E1B">Learning pathways across the OPIM curriculum</text>
-<text x="34" y="66" font-size="13" fill="#6B6A63">Solid arrow = builds on &#183; dashed = shared core, same skills at a different level &#183; each course has a free companion book + notebooks</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="620" viewBox="0 0 1180 620" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Where Dr. Wanik's courses sit in the UConn analytics curriculum: undergraduate BDA core 3505 to 3510 to 3511; MSBAPM required core 5603 and 5641; and concentration electives 5502/5509/5512 (Business Data Science) and 5509/5516 (AI for Business).">
+<rect x="0.5" y="0.5" width="1179" height="619" rx="16" fill="#FDFDFB" stroke="#E4E2DA"/>
+<text x="34" y="40" font-size="20" font-weight="700" fill="#1F1E1B">Where Dr. Wanik's courses sit in the UConn analytics curriculum</text>
+<text x="34" y="62" font-size="12.5" fill="#6B6A63">Official plans of study, 2025–26 &#183; <tspan font-weight="700">bold</tspan> = Dr. Wanik teaches it &#183; dashed outline = required course taught by a colleague &#183; every one of his has a free book + notebooks</text>
 
-<!-- lane labels -->
-<text x="34" y="150" font-size="12.5" font-weight="700" fill="#8A8880">UNDERGRADUATE</text>
-<text x="34" y="164" font-size="11" fill="#A9A79E">Business Data Analytics</text>
-<text x="34" y="330" font-size="12.5" font-weight="700" fill="#8A8880">GRADUATE —</text>
-<text x="34" y="345" font-size="12.5" font-weight="700" fill="#8A8880">DATA SCIENCE</text>
-<line x1="230" y1="95" x2="230" y2="560" stroke="#EEEDE7"/>
-
-<!-- lane band tints -->
-<rect x="232" y="96" width="892" height="128" rx="10" fill="#FBFAF6"/>
-<rect x="232" y="260" width="892" height="128" rx="10" fill="#FBFAF6"/>
-<rect x="232" y="452" width="892" height="112" rx="10" fill="#FBFAF6"/>
-<text x="250" y="480" font-size="12.5" font-weight="700" fill="#8A8880">GRADUATE — SPECIALIZATIONS</text>
-
-<!-- ===== solid within-track arrows ===== -->
 <defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#9A988F"/></marker></defs>
-<!-- undergrad -->
-<line x1="446" y1="150" x2="500" y2="150" stroke="#9A988F" stroke-width="2" marker-end="url(#a)"/>
-<line x1="686" y1="150" x2="740" y2="150" stroke="#9A988F" stroke-width="2" marker-end="url(#a)"/>
-<!-- grad DS -->
-<line x1="446" y1="314" x2="500" y2="314" stroke="#9A988F" stroke-width="2" marker-end="url(#a)"/>
-<line x1="686" y1="314" x2="740" y2="314" stroke="#9A988F" stroke-width="2" marker-end="url(#a)"/>
-<line x1="926" y1="314" x2="980" y2="314" stroke="#9A988F" stroke-width="2" marker-end="url(#a)"/>
 
-<!-- ===== dashed shared-core links ===== -->
-<line x1="330" y1="188" x2="330" y2="276" stroke="#B4B2A9" stroke-width="1.6" stroke-dasharray="5 4"/>
-<text x="338" y="238" font-size="10.5" fill="#8A8880">shared applied-stats core</text>
-<line x1="570" y1="188" x2="570" y2="276" stroke="#B4B2A9" stroke-width="1.6" stroke-dasharray="5 4"/>
-<text x="578" y="238" font-size="10.5" fill="#8A8880">same ML fundamentals</text>
-<line x1="620" y1="346" x2="470" y2="452" stroke="#B4B2A9" stroke-width="1.6" stroke-dasharray="5 4"/>
-<text x="470" y="430" font-size="10.5" fill="#8A8880">scale it up →</text>
+<!-- ===================== BAND 1: Undergrad BDA core ===================== -->
+<rect x="24" y="82" width="1132" height="112" rx="10" fill="#FBFAF6"/>
+<text x="40" y="104" font-size="12.5" font-weight="700" fill="#8A8880">UNDERGRADUATE · Business Data Analytics (BS) — major core</text>
+<!-- 3505 colleague -->
+<g><rect x="300" y="120" width="176" height="56" rx="12" fill="#F4F3EE" stroke="#C7C5BC" stroke-dasharray="4 3"/><text x="316" y="145" font-size="16" font-weight="700" fill="#807E77">OPIM 3505</text><text x="316" y="163" font-size="10.5" fill="#A9A79E">Business Database Mgmt</text></g>
+<line x1="476" y1="148" x2="524" y2="148" stroke="#9A988F" stroke-width="2" marker-end="url(#a)"/>
+<!-- 3510 Dave -->
+<g><rect x="524" y="120" width="176" height="56" rx="12" fill="#FCEBEC" stroke="#BE123C"/><text x="540" y="145" font-size="16" font-weight="700" fill="#791F1F">OPIM 3510</text><text x="540" y="163" font-size="10.5" fill="#A32D2D">BDA I · stats &amp; geospatial</text></g>
+<line x1="700" y1="148" x2="748" y2="148" stroke="#9A988F" stroke-width="2" marker-end="url(#a)"/>
+<!-- 3511 Dave -->
+<g><rect x="748" y="120" width="176" height="56" rx="12" fill="#FBEAF0" stroke="#D4537E"/><text x="764" y="145" font-size="16" font-weight="700" fill="#72243E">OPIM 3511</text><text x="764" y="163" font-size="10.5" fill="#993556">BDA II · ML fundamentals</text></g>
+<text x="946" y="142" font-size="10.5" fill="#A9A79E">also teaches</text>
+<text x="946" y="158" font-size="10.5" fill="#A9A79E">3802 Data &amp; Text (elective)</text>
 
-<!-- ===== NODES ===== -->
-<!-- helper: rounded rect + number + subtitle -->
-<!-- Undergrad -->
-<g><rect x="270" y="120" width="176" height="60" rx="12" fill="#FCEBEC" stroke="#BE123C"/><text x="286" y="147" font-size="17" font-weight="700" fill="#791F1F">OPIM 3510</text><text x="286" y="166" font-size="11" fill="#A32D2D">BDA I · stats &amp; geospatial</text></g>
-<g><rect x="510" y="120" width="176" height="60" rx="12" fill="#FBEAF0" stroke="#D4537E"/><text x="526" y="147" font-size="17" font-weight="700" fill="#72243E">OPIM 3511</text><text x="526" y="166" font-size="11" fill="#993556">BDA II · ML fundamentals</text></g>
-<g><rect x="750" y="120" width="176" height="60" rx="12" fill="#F4F3EE" stroke="#C7C5BC" stroke-dasharray="4 3"/><text x="766" y="147" font-size="17" font-weight="700" fill="#807E77">OPIM 3802</text><text x="766" y="166" font-size="11" fill="#A9A79E">Data &amp; Text Analytics</text></g>
+<!-- ===================== BAND 2: MSBAPM required core ===================== -->
+<rect x="24" y="206" width="1132" height="112" rx="10" fill="#FBFAF6"/>
+<text x="40" y="228" font-size="12.5" font-weight="700" fill="#8A8880">GRADUATE · MSBAPM — required core (9 courses; Dr. Wanik teaches 2)</text>
+<g><rect x="300" y="244" width="176" height="56" rx="12" fill="#E6F1FB" stroke="#1E40AF"/><text x="316" y="269" font-size="16" font-weight="700" fill="#0C447C">OPIM 5603</text><text x="316" y="287" font-size="10.5" fill="#185FA5">Statistics (R)</text></g>
+<g><rect x="524" y="244" width="176" height="56" rx="12" fill="#FAECE7" stroke="#E0701A"/><text x="540" y="269" font-size="16" font-weight="700" fill="#712B13">OPIM 5641</text><text x="540" y="287" font-size="10.5" fill="#993C1D">Business Decision Modeling</text></g>
+<text x="726" y="266" font-size="10.5" fill="#A9A79E">+ colleagues' cores: 5604 Predictive Modeling ·</text>
+<text x="726" y="282" font-size="10.5" fill="#A9A79E">5671 Data Mining &amp; Time Series · PM · capstone</text>
 
-<!-- Grad DS -->
-<g><rect x="270" y="284" width="176" height="60" rx="12" fill="#E6F1FB" stroke="#1E40AF"/><text x="286" y="311" font-size="17" font-weight="700" fill="#0C447C">OPIM 5603</text><text x="286" y="330" font-size="11" fill="#185FA5">Statistics (R)</text></g>
-<g><rect x="510" y="284" width="176" height="60" rx="12" fill="#EEEDFE" stroke="#534AB7"/><text x="526" y="311" font-size="17" font-weight="700" fill="#3C3489">OPIM 5512</text><text x="526" y="330" font-size="11" fill="#534AB7">Applied Data Science</text></g>
-<g><rect x="750" y="284" width="176" height="60" rx="12" fill="#FAEEDA" stroke="#BA7517"/><text x="766" y="311" font-size="17" font-weight="700" fill="#633806">OPIM 5509</text><text x="766" y="330" font-size="11" fill="#854F0B">Deep Learning</text></g>
-<g><rect x="990" y="284" width="176" height="60" rx="12" fill="#E1F5EE" stroke="#0F766E"/><text x="1006" y="311" font-size="17" font-weight="700" fill="#085041">OPIM 5516</text><text x="1006" y="330" font-size="11" fill="#0F6E56">Advanced Deep Learning</text></g>
+<!-- ===================== BAND 3: Concentrations ===================== -->
+<rect x="24" y="330" width="1132" height="266" rx="10" fill="#FBFAF6"/>
+<text x="40" y="352" font-size="12.5" font-weight="700" fill="#8A8880">GRADUATE · MSBAPM — concentration electives (choose 3; Dr. Wanik's four)</text>
 
-<!-- Specializations -->
-<g><rect x="390" y="496" width="176" height="60" rx="12" fill="#EAF3DE" stroke="#047857"/><text x="406" y="523" font-size="17" font-weight="700" fill="#27500A">OPIM 5502</text><text x="406" y="542" font-size="11" fill="#3B6D11">Big Data · PySpark</text></g>
-<g><rect x="630" y="496" width="176" height="60" rx="12" fill="#FAECE7" stroke="#E0701A"/><text x="646" y="523" font-size="17" font-weight="700" fill="#712B13">OPIM 5641</text><text x="646" y="542" font-size="11" fill="#993C1D">Optimization / Decision Modeling</text></g>
+<!-- concentration bracket A: Business Data Science -->
+<path d="M250,392 L250,378 L640,378 L640,392" fill="none" stroke="#047857" stroke-width="1.6"/>
+<text x="256" y="372" font-size="11.5" font-weight="700" fill="#27500A">Business Data Science — choose 3</text>
+<!-- concentration bracket B: AI for Business -->
+<path d="M700,414 L700,428 L1090,428 L1090,414" fill="none" stroke="#0F766E" stroke-width="1.6"/>
+<text x="706" y="446" font-size="11.5" font-weight="700" fill="#085041">AI for Business (new Fall 2025) — choose 3</text>
 
-<text x="830" y="532" font-size="11" fill="#A9A79E" font-style="italic">standalone electives — draw on the shared core</text>
+<!-- course boxes row -->
+<g><rect x="250" y="470" width="170" height="58" rx="12" fill="#EAF3DE" stroke="#047857"/><text x="266" y="496" font-size="16" font-weight="700" fill="#27500A">OPIM 5502</text><text x="266" y="515" font-size="10.5" fill="#3B6D11">Big Data · PySpark</text></g>
+<g><rect x="440" y="470" width="170" height="58" rx="12" fill="#EEEDFE" stroke="#534AB7"/><text x="456" y="496" font-size="16" font-weight="700" fill="#3C3489">OPIM 5512</text><text x="456" y="515" font-size="10.5" fill="#534AB7">Data Science (Python)</text></g>
+<!-- 5509 bridges both concentrations -->
+<g><rect x="630" y="470" width="170" height="58" rx="12" fill="#FAEEDA" stroke="#BA7517" stroke-width="2"/><text x="646" y="496" font-size="16" font-weight="700" fill="#633806">OPIM 5509</text><text x="646" y="515" font-size="10.5" fill="#854F0B">Deep Learning</text></g>
+<g><rect x="820" y="470" width="170" height="58" rx="12" fill="#E1F5EE" stroke="#0F766E"/><text x="836" y="496" font-size="16" font-weight="700" fill="#085041">OPIM 5516</text><text x="836" y="515" font-size="10.5" fill="#0F6E56">Advanced Deep Learning</text></g>
+<text x="632" y="548" font-size="10" font-weight="700" fill="#854F0B">↑ counts for both concentrations</text>
+<text x="1010" y="500" font-size="10.5" fill="#A9A79E">+ colleagues:</text>
+<text x="1010" y="515" font-size="10.5" fill="#A9A79E">5515 GenAI · 5517 ·</text>
+<text x="1010" y="530" font-size="10.5" fill="#A9A79E">5518 · 5501 · 5504 · 5511</text>
+
+<!-- ===================== dashed cross-links ===================== -->
+<line x1="585" y1="176" x2="388" y2="244" stroke="#B4B2A9" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="392" y="212" font-size="10.5" fill="#8A8880">shared applied-stats core (Python ↔ R)</text>
+<line x1="836" y1="176" x2="612" y2="244" stroke="#B4B2A9" stroke-width="1.6" stroke-dasharray="5 4"/>
+<text x="700" y="200" font-size="10.5" fill="#8A8880">BDA II ≈ grad Predictive Modeling (5604 may substitute)</text>
 </svg>

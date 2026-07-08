@@ -12,13 +12,13 @@ A cross-course map of **what students learn** across the whole OPIM analytics cu
 
 ![OPIM course learning pathways](pathways.svg)
 
-Two ladders and two electives:
+Dr. Wanik's eight courses anchor two UConn programs (2025–26 plans of study):
 
-- **Undergraduate — Business Data Analytics:** [**3510**](OPIM3510.md) *Data Storytelling, Applied Stats & Geospatial* → [**3511**](OPIM3511.md) *ML Fundamentals* → 3802 *Data & Text Analytics*
-- **Graduate — Data Science:** [**5603**](OPIM5603.md) *Statistics (R)* → [**5512**](OPIM5512.md) *Applied Data Science* → [**5509**](OPIM5509.md) *Deep Learning* → [**5516**](OPIM5516.md) *Advanced Deep Learning*
-- **Graduate — Specializations:** [**5502**](OPIM5502.md) *Big Data / PySpark* · [**5641**](OPIM5641.md) *Optimization & Decision Modeling*
+- **Undergraduate — Business Data Analytics (BS) core:** OPIM 3505 *Database* → [**3510**](OPIM3510.md) *BDA I: Data Storytelling, Applied Stats & Geospatial* → [**3511**](OPIM3511.md) *BDA II: ML Fundamentals* — he teaches **3510 & 3511** (and **3802** *Data & Text Analytics* as a School-of-Business elective).
+- **Graduate — MSBAPM required core:** of the 9 required courses he teaches **2** — [**5603**](OPIM5603.md) *Statistics in Business Analytics (R)* and [**5641**](OPIM5641.md) *Business Decision Modeling*.
+- **Graduate — concentration electives:** his other four anchor **both** data-focused concentrations — **Business Data Science** ([5502](OPIM5502.md) · [5509](OPIM5509.md) · [5512](OPIM5512.md)) and **AI for Business** (new Fall 2025: [5509](OPIM5509.md) · [5516](OPIM5516.md)) — with **5509 counting toward both**.
 
-The **dashed links** are the important part: **3510 ↔ 5603** teach the same applied-statistics core (Python vs. R), and **3511 ↔ 5512** are the *same ML fundamentals* at two levels — so an undergraduate who masters BDA II arrives in the graduate program already owning the modeling foundation, ready for production and cloud on top.
+Two **shared cores** stitch the programs together: **3510 ↔ 5603** teach the same applied statistics (Python vs. R), and **BDA II (3511) ≈ the graduate Predictive-Modeling core** — officially, OPIM 5604 may substitute for 3511 — so a strong undergraduate arrives in the MS already owning the modeling foundation, ready for the production, cloud, and deep-learning work layered on top in 5512/5509/5516.
 
 ---
 
@@ -36,7 +36,7 @@ Cell shows **how you practice** each skill in that course: ✋ by hand · 💻 i
 | **Probability & simulation** | ✋💻 | | ✋💻 | | | | | ✋💻 |
 | **Statistical inference — tests · MLE** | | | ✋💻 | | | | | |
 | **Regression & GLMs** | | ✋💻 | ✋💻 | 💻 | | | | 💻 |
-| **The ML recipe — split·scale·fit·eval** | | ✋💻 | | ✋💻 | ✋💻 | 💻 | ✋💻 | |
+| **The ML recipe — split·scale·fit·eval** | | ✋💻 | | ✋💻 | ✋💻 | 💻 | 💻 | |
 | **Classification & error metrics** | | ✋💻 | | ✋💻 | 💻 | | 💻 | |
 | **Trees, forests & boosting** | | ✋💻 | | 💻 | | | | |
 | **Imbalanced data & SMOTE** | | ✋💻 | | 💻 | | | | |
@@ -44,8 +44,8 @@ Cell shows **how you practice** each skill in that course: ✋ by hand · 💻 i
 | **Pipelines · CV · tuning · AutoML** | | 💻 | | 💻 | 💻 | | 💻 | |
 | **Deep learning — DNN/CNN/RNN** | | | | ✋💻 | ✋💻 | 💻 | | |
 | **Advanced DL — Bayesian·GNN·Transformers** | | | | | | ✋💻 | | |
-| **Time series & forecasting** | ✋💻 | | | 💻 | | 💻 | | ✋💻 |
-| **Text & NLP** | | | | 💻 | | 💻 | 💻 | |
+| **Time series & forecasting** | ✋💻 | | | 💻 | 💻 | 💻 | | ✋💻 |
+| **Text & NLP** | | | | 💻 | 💻 | 💻 | 💻 | |
 | **Geospatial & mapping** | ✋💻 | | | | | | | |
 | **Big data / distributed (PySpark)** | | | | | | | ✋💻 | |
 | **Cloud, production & Git/CI** | | | | ☁️💻 | | ☁️💻 | ☁️💻 | |
@@ -106,4 +106,4 @@ The **5516 spatiotemporal-forecasting project** is, essentially, a student-scale
 
 ---
 
-*Built from the course learning objectives, textbook chapters, per-lecture key points, and notebook repos. One atlas per course: [3510](OPIM3510.md) · [3511](OPIM3511.md) · [5502](OPIM5502.md) · [5509](OPIM5509.md) · [5512](OPIM5512.md) · [5516](OPIM5516.md) · [5603](OPIM5603.md) · [5641](OPIM5641.md).*
+*Course roles reflect the official 2025–26 plans of study ([MSBAPM curriculum](https://catalog.uconn.edu/graduate/degree-programs/business-analytics-project-management-ms/) · [BDA BS](https://catalog.uconn.edu/undergraduate/business/bda-bs/)). Skill content is built from the course learning objectives, textbook chapters, per-lecture key points, and notebook repos. One atlas per course: [3510](OPIM3510.md) · [3511](OPIM3511.md) · [5502](OPIM5502.md) · [5509](OPIM5509.md) · [5512](OPIM5512.md) · [5516](OPIM5516.md) · [5603](OPIM5603.md) · [5641](OPIM5641.md).*
